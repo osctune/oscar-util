@@ -5,6 +5,10 @@
   "scripts": {
     "test": "jest --watchAll"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osctune/oscar-util.git"
+  },
   "author": "Oscar Tunebing <tunebing@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -13,5 +17,9 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "jest": "^24.8.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/osctune/oscar-util/issues"
+  },
+  "homepage": "https://github.com/osctune/oscar-util#readme"
 }
