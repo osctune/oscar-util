@@ -1,8 +1,7 @@
 {
   "name": "@nam3/oscar-util",
   "version": "0.1.0",
-  "description": "Base62 hash implementation",
-  "main": "src/index.js",
+  "description": "Utility library for OSCAR",
   "scripts": {
     "test": "jest --watchAll"
   },
