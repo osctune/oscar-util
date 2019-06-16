@@ -1,0 +1,17 @@
+{
+  "name": "@nam3/oscar-util",
+  "version": "0.1.0",
+  "description": "Base62 hash implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Oscar Tunebing <tunebingo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
