@@ -1,6 +1,6 @@
 const {
     PORT,
-} = require('../env');
+} = process.env;
 
 const formatResponse = (req, hash) => req.hostname === 'localhost'
     ? `${req.protocol}://${req.hostname}:${PORT}/${hash}`
