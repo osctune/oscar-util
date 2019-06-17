@@ -11,9 +11,7 @@
   },
   "author": "Oscar Tunebing <tunebing@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "mongodb": "^3.2.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "cross-env": "^5.2.0",
     "jest": "^24.8.0"
