@@ -1,5 +1,5 @@
 // Make list of unique items.
-export const uniqueBy = (list, getKey) => {
+const uniqueBy = (list, getKey) => {
     const set = new Set([]);
     return list.filter(item => {
         const key = getKey(item);
@@ -11,3 +11,5 @@ export const uniqueBy = (list, getKey) => {
         }
     });
 };
+
+module.exports = uniqueBy;

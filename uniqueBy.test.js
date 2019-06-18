@@ -1,4 +1,4 @@
-import uniqueBy from './uniqueBy';
+const uniqueBy = require('./uniqueBy');
 
 describe('uniqueBy', () => {
     it('should return a new list containing only unique items', () => {
